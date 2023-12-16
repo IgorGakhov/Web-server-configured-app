@@ -11,7 +11,7 @@ $ docker compose up -d
 ✔ Network web-server-configured-app_default                   Created
 ✔ Container redis                                             Started
 ✔ Container flask-app                                         Started
-✔ Container apache                                            Started                                                  
+✔ Container apache                                            Started
 ✔ Container nginx-proxy                                       Started
 ```
 
@@ -40,11 +40,11 @@ Hello World!
 ```
 $ docker compose down
 [+] Running 5/4
-✔ Container nginx-proxy                      Removed
-✔ Container apache                           Removed
-✔ Container redis                            Removed
-✔ Container flask-app                        Removed
-✔ Network web-server-configured-app_default  Removed
+✔ Container nginx-proxy                                      Removed
+✔ Container apache                                           Removed
+✔ Container redis                                            Removed
+✔ Container flask-app                                        Removed
+✔ Network web-server-configured-app_default                  Removed
 ```
 
 Выполнив описанные выше шаги, вы получите реверсный прокси-сервер NGINX и серверную часть Flask приложения. Общий маршрут запросов будет выглядеть следующим образом:
